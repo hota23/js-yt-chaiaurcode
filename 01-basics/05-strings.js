@@ -5,7 +5,7 @@ const repoCount = 1
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)
 
-const gameName = new String('rajHOTA')
+const gameName = new String('hiteshchoudhary')
 
 // console.log(gameName[0])
 // console.log(gameName.__proto__)
@@ -19,4 +19,13 @@ console.log(gameName.indexOf('x'))
 
 const newString = gameName.substring(0, 4)
 console.log(newString)
+
+const anotherString = gameName.slice(-8, 4)
+console.log(anotherString);
+
+const newStringOne = "   raj   "
+console.log(newStringOne)
+console.log(newStringOne.trim())
+
+
 
