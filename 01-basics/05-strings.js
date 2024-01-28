@@ -27,5 +27,8 @@ const newStringOne = "   raj   "
 console.log(newStringOne)
 console.log(newStringOne.trim())
 
+const url = "https://hiteshchoudhary/hitesh%20choudhary"
+console.log(url.replace('%20','-'))
+
 
 
