@@ -27,3 +27,5 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+// null == undefined is true, while null === undefined is false.
